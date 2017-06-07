@@ -3,3 +3,6 @@ let cheer = function(){
 };
 
 cheer();
+
+
+console.log(hi);
