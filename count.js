@@ -1,7 +1,7 @@
 'use strict';
 
-function count(age){
-	console.log(age);
+function count(age, bornYear){
+	console.log('Was born in ' + bornYear + ', ' + age + ' years old');
 }
 
-count(20);
+count(20, 1996);
