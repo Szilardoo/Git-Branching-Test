@@ -1,8 +1,9 @@
 'use strict';
 
-let Greet = function(firstName, lastName, kutya) {
+
+let Greet = function(firstName, lastName, parameter) {
     console.log('Hello ' + firstName + ' ' + lastName + 'noob nolifer nerd');
-    console.log(kutya);
+    console.log('Greating for the ' + parameter + '!');
 }
 
-Greet('Balázs', 'Ilcsik', 'Picur');
+Greet('Balázs', 'Ilcsik', 'Me');
