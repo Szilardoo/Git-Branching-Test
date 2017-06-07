@@ -1,7 +1,7 @@
-let cheer = function(name){
-    console.log(name + 'must DIIIIIEEEEEEEEE!!!')
+let cheer = function(name, how){
+    console.log(name + ' must DIIIIIEEEEEEEEE!!! ' + how)
     console.log('The Order of the Phoenix will RIIIIIIISSSSSSEEEEEEEE');
     console.log('Chinese');
 };
 
-cheer('Voldemort');
+cheer('Voldemort', 'with fire');
