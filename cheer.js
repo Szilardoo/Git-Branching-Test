@@ -1,8 +1,6 @@
 let cheer = function(){
-    console.log('The Order of the Phoenix will RIIIIIIISSSSSSEEEEEEEE');
+    console.log('Chinese');
 };
 
 cheer();
 
-
-console.log(hi);
